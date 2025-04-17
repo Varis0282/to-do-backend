@@ -19,4 +19,4 @@ module.exports = async (req, res, next) => {
         console.log("Error in privateResource.js", err);
         return res.status(500).json({ message: 'Internal server error', success: false });
     }
-}
+};
